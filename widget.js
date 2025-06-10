@@ -262,7 +262,7 @@
           Object.assign(minimizedButton.style, {            width: sizeConfig.button + 'px',
             height: sizeConfig.button + 'px',
             borderRadius: '50%',
-            backgroundColor: finalSettings.themeColor || '#276d64',
+            backgroundColor: finalSettings.themeColor || '#020817',
             cursor: 'pointer',
             display: 'flex',
             alignItems: 'center',
