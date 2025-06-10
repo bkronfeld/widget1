@@ -224,18 +224,18 @@
           // Iframe Container (initially hidden)
           const iframeContainer = document.createElement('div');
           iframeContainer.className = 'ai-chat-widget';
-          iframeContainer.style.cssText = `
-            display: none;
-            width: 100%;
-            height: ${finalSettings.height}px;
-            border-radius: 12px;
-            overflow: hidden;
-            box-shadow: 0 4px 12px rgba(0,0,0,0.15);
-            transition: all 0.3s ease;
-            transform-origin: ${placementStyles.transformOrigin};
-            pointer-events: auto;
-            background-color: #020817;
-          `;
+       iframeContainer.style.cssText = `
+        display: none;
+        width: 100%;
+        height: ${finalSettings.height}px;
+        border-radius: 12px;
+        overflow: hidden;
+        box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+        transition: all 0.3s ease;
+        transform-origin: ${placementStyles.transformOrigin};
+        pointer-events: auto;
+        background-color: #020817;
+            `;
           
           // Create the Iframe first
           const iframe = document.createElement('iframe');
